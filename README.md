@@ -2,10 +2,7 @@
 
 > This is a simple README.md generator tool that helps in creating a file for everyone
 
-## 🏅 Badges
-[![GitHub Stars](https://img.shields.io/github/stars/aravindp602/readme-generator?style=for-the-badge)](https://github.com/aravindp602/readme-generator/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/aravindp602/readme-generator?style=for-the-badge)](https://github.com/aravindp602/readme-generator/network/members)
-[![GitHub License](https://img.shields.io/github/license/aravindp602/readme-generator?style=for-the-badge)](./LICENSE)
+
 
 ## ✨ Features
 
@@ -13,9 +10,8 @@
 - 📚 Multiple Template Support: Choose between a "Default" or "Minimalist" style.
 - 📄 Automatic LICENSE file generation (MIT, Apache 2.0).
 - 🏅 Includes GitHub badges for Stars, Forks, and License.
--  🤝 Optionally adds a professional "Contributing" section.
+- 🤝 Optionally adds a professional "Contributing" section.
 
-- 📦 Packaged and installable via `pip`.
 
 ## 🚀 Installation
 
