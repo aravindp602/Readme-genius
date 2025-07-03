@@ -44,7 +44,7 @@ Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-You can also find more details in the project's [issues page](https://github.com/aravindp602/readme-generator/issues).
+You can also find more details in the project's [issues page](https://github.com/aravindp602/Readme-genius/issues).
 
 
 
