@@ -33,7 +33,7 @@ pip install -r requirements.txt
 🛠️ Usage
 
 # Example of how to run the tool
-readme-generator
+Readme-genius
 
 
 
