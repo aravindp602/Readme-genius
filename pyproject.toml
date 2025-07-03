@@ -18,21 +18,24 @@ classifiers = [
     "Topic :: Utilities",
     "Environment :: Console",
 ]
+# These are the CORE dependencies needed to RUN the tool
 dependencies = [
     "rich",
     "questionary",
     "Jinja2",
-    "typer[all]"
-    "pytest"
+    "typer[all]",
 ]
-
-
-
 
 [project.urls]
 Homepage = "https://github.com/aravindp602/readme-genius"
 Issues = "https://github.com/aravindp602/readme-genius/issues"
 
-# This is the magic part!
 [project.scripts]
 readme-genius = "readme_genius.main:run"
+
+# This is the NEW section for development-only tools
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    # You can add other dev tools here later, like "pytest-mock"
+]
