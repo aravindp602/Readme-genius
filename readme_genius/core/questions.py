@@ -1,3 +1,5 @@
+# readme_genius/core/questions.py
+
 import questionary
 from rich.console import Console
 
@@ -53,6 +55,22 @@ def get_project_info():
             'name': 'description',
             'message': 'Enter a short, catchy description of your project:',
         },
+        # --- NEW QUESTIONS START HERE ---
+        {
+            'type': 'confirm',
+            'name': 'custom_install',
+            'message': "Do you want to provide custom installation instructions (e.g., 'pip install ...')?",
+            'default': False
+        },
+        {
+            'type': 'text',
+            'name': 'installation_instructions',
+            'message': 'Enter your installation commands. They will be placed inside a ```bash block.',
+            # This question only appears if the user answered 'yes' to the previous one
+            'when': lambda answers: answers.get('custom_install') == True,
+            'validate': lambda text: len(text) > 0 or "You must provide instructions if you select this option."
+        },
+        # --- NEW QUESTIONS END HERE ---
         {
             'type': 'input',
             'name': 'github_username',
@@ -72,7 +90,6 @@ def get_project_info():
             'when': lambda answers: answers['license'] != 'None',
             'validate': lambda text: len(text) > 0 or "Please enter your full name."
         },
-        # --- REMOVED: The question about adding badges ---
         {
             'type': 'confirm',
             'name': 'include_contributing',
