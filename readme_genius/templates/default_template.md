@@ -4,10 +4,7 @@
 > {{ description }}
 {% endif %}
 
-{% if badges %}
-## 🏅 Badges
-{{ badges }}
-{% endif %}
+
 
 {% if features_list %}
 ## ✨ Features

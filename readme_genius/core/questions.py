@@ -10,10 +10,8 @@ def ask_for_features():
     console.print("Enter one feature per line. Press [bold]Enter[/bold] on an empty line when you're done.")
     
     while True:
-        # We use a simple text prompt inside the loop
         feature_text = questionary.text(f"  Feature #{len(features) + 1}:").ask()
         
-        # If the user just presses Enter, the input is None or empty. That's our signal to stop.
         if not feature_text:
             break
         features.append(feature_text)
@@ -74,12 +72,7 @@ def get_project_info():
             'when': lambda answers: answers['license'] != 'None',
             'validate': lambda text: len(text) > 0 or "Please enter your full name."
         },
-        {
-            'type': 'confirm',
-            'name': 'add_badges',
-            'message': 'Do you want to include standard GitHub badges (Stars, Forks, License)?',
-            'default': True
-        },
+        # --- REMOVED: The question about adding badges ---
         {
             'type': 'confirm',
             'name': 'include_contributing',
@@ -93,8 +86,6 @@ def get_project_info():
     if not answers:
         raise KeyboardInterrupt("Readme generation cancelled.")
     
-    # This happens *after* the main questions are answered.
-    # We add the list of features to our answers dictionary under the key 'features_list'.
     answers['features_list'] = ask_for_features()
 
     return answers

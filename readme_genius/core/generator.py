@@ -2,27 +2,11 @@ from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
 import datetime
 
-def generate_badges(data):
-    """Generates Markdown for badges based on user answers."""
-    if not data.get('add_badges'):
-        return ""
-
-    username = data['github_username']
-    project = data['project_name'].lower().replace(' ', '-')
-    license_type = data.get('license', 'None')
-    
-    badges = []
-    badges.append(f"[![GitHub Stars](https://img.shields.io/github/stars/{username}/{project}?style=for-the-badge)](https://github.com/{username}/{project}/stargazers)")
-    badges.append(f"[![GitHub Forks](https://img.shields.io/github/forks/{username}/{project}?style=for-the-badge)](https://github.com/{username}/{project}/network/members)")
-    
-    if license_type != 'None':
-        badges.append(f"[![GitHub License](https://img.shields.io/github/license/{username}/{project}?style=for-the-badge)](./LICENSE)")
-        
-    return "\n".join(badges)
+# --- REMOVED: The entire generate_badges function ---
 
 def generate_readme(data):
     """Renders the README template with the provided data."""
-    data['badges'] = generate_badges(data)
+    # --- REMOVED: The line that generated and added badges to the data ---
     template_name = data.get('template', 'default_template.md')
     template_dir = Path(__file__).parent.parent / 'templates'
     env = Environment(loader=FileSystemLoader(template_dir), trim_blocks=True, lstrip_blocks=True)
