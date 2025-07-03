@@ -9,7 +9,6 @@
 - 💬 Interactive CLI to guide you through creating a README.
 - 📚 Multiple Template Support: Choose between a "Default" or "Minimalist" style.
 - 📄 Automatic LICENSE file generation (MIT, Apache 2.0).
-- 🏅 Includes GitHub badges for Stars, Forks, and License.
 - 🤝 Optionally adds a professional "Contributing" section.
 
 
