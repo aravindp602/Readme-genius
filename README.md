@@ -19,8 +19,8 @@ Provide instructions on how to install your project. For a Python package, it mi
 
 ```bash
 # Clone the repository
-git clone https://github.com/aravindp602/readme-generator
-cd readme-generator
+git clone https://github.com/aravindp602/Readme-genius
+cd readme-genius
 
 # Install dependencies (if using requirements.txt)
 pip install -r requirements.txt
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 🛠️ Usage
 
 # Example of how to run the tool
-readme-generator
+Readme-genius
 
 
 
