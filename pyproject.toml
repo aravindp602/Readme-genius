@@ -22,7 +22,12 @@ dependencies = [
     "rich",
     "questionary",
     "Jinja2",
+    "typer[all]"
+    "pytest"
 ]
+
+
+
 
 [project.urls]
 Homepage = "https://github.com/aravindp602/readme-genius"
