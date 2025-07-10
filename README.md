@@ -1,6 +1,6 @@
 # Readme-Genius
-[![GitHub Stars](https://img.shields.io/github/stars/aravindp602/readme-genius?style=for-the-badge)](https://github.com/aravindp602/readme-genius/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/aravindp602/readme-genius?style=for-the-badge)](https://github.com/aravindp602/readme-genius/network/members)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
 [![GitHub License](https://img.shields.io/github/license/aravindp602/readme-genius?style=for-the-badge)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 
