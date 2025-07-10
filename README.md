@@ -43,7 +43,7 @@ pip install -e .[dev]
 
 After installation, simply navigate to your project's root directory and run the command:
 
-```bash
+
 readme-genius
 
 
