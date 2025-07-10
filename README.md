@@ -1,5 +1,7 @@
 # Readme-Genius
-
+[![GitHub Stars](https://img.shields.io/github/stars/aravindp602/readme-genius?style=for-the-badge)](https://github.com/aravindp602/readme-genius/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/aravindp602/readme-genius?style=for-the-badge)](https://github.com/aravindp602/readme-genius/network/members)
+[![GitHub License](https://img.shields.io/github/license/aravindp602/readme-genius?style=for-the-badge)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 
 A professional README.md generator CLI tool that creates beautiful and informative documentation for your projects.
