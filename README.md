@@ -1,6 +1,5 @@
 # Readme-Genius
 
-[![PyPI version](https://img.shields.io/pypi/v/readme-genius?style=for-the-badge)](https://pypi.org/project/readme-genius/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 
 A professional README.md generator CLI tool that creates beautiful and informative documentation for your projects.
