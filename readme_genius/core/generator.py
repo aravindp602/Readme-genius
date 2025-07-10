@@ -2,12 +2,10 @@ from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
 import datetime
 
-# --- REMOVED: The entire generate_badges function ---
-
 def generate_readme(data):
     """Renders the README template with the provided data."""
-    # --- REMOVED: The line that generated and added badges to the data ---
-    template_name = data.get('template', 'default_template.md')
+    # The template name is now passed directly from the data dictionary
+    template_name = data.get('template', 'default_template.md') 
     template_dir = Path(__file__).parent.parent / 'templates'
     env = Environment(loader=FileSystemLoader(template_dir), trim_blocks=True, lstrip_blocks=True)
     template = env.get_template(template_name)

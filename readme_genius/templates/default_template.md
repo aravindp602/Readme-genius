@@ -14,6 +14,8 @@
 {% endfor %}
 {% endif %}
 
+
+
 ### 🚀 Installation
 
 {# --- NEW LOGIC BLOCK START --- #}
@@ -61,4 +63,4 @@ You can also find more details in the project's [issues page](https://github.com
 This project is licensed under the {{ license }} License. See the LICENSE file for more details.
 
 
-# This README was generated with ❤️ by Readme-Genius
+<p align="center">This README was generated with ❤️ by Readme-Genius</p>
