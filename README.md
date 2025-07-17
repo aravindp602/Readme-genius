@@ -28,15 +28,15 @@ A professional README.md generator CLI tool that creates beautiful and informati
 
 ## 🚀  Installation
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/aravindp602/readme-genius.git
 cd readme-genius
 
-# 2. Create and activate a virtual environment (Recommended)
+### 2. Create and activate a virtual environment (Recommended)
 python3 -m venv venv
 source venv/bin/activate
 
-# 3. Install in editable mode with development dependencies
+### 3. Install in editable mode with development dependencies
 pip install -e .[dev]
 
 
